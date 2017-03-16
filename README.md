@@ -1,7 +1,15 @@
 # myvote
-how much is your vote worth compared to one person one vote
+how much is your vote worth compared to what it would be in a one person one vote system?  this script calculates the relative strength of a vote in different states using the functions: 
+
+relative votes = fraction of total vote with electoral college / fraction of total vote in one person one vote system = A / B
+
+A = ( 1 / state population ) * ( number of electoral votes for state / total number of electoral votes for all states ) 
+
+B = 1 / total US population
 
 use as ``python votecalc.py`` then enter a state name (use tab complete to find it, or type "all" for all states) 
+
+yes, we assume that everyone votes, which is wrong
 
 ## example output:
 ```
