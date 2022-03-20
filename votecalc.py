@@ -21,7 +21,7 @@ def complete(text, state):
 readline.parse_and_bind("tab: complete")
 readline.set_completer(complete)
 
-thestate = raw_input('Enter state name: (use tab complete to find it, or type "all" for all states) \n')
+thestate = input('Enter state name: (use tab complete to find it, or type "all" for all states) \n')
 print("\n\n")
 
 for state,pop,evote in zip(states,pops,evotes):
