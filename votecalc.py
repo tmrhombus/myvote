@@ -1,7 +1,7 @@
 #!/bin/python
 
 from states import states
-from pops_2016 import pops
+from pops_2020 import pops
 from evotes import evotes
 
 totpop    = sum(pops)
